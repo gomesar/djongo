@@ -26,7 +26,7 @@ class DatabaseIntrospection(BaseDatabaseIntrospection):
         'text': 'TextField',
         'int64': 'BigIntegerField',
         'int32': 'IntegerField',
-        'number': 'DecimalField',
+        bson.decimal128.Decimal128: 'DecimalField',
         'string': 'CharField',
         'boolean': 'BooleanField',
         'object': 'djongo.models.DictField',

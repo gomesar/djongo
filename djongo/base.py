@@ -53,7 +53,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         'CommaSeparatedIntegerField': 'string',
         'DateField': 'date',
         'DateTimeField': 'date',
-        'DecimalField': 'number',
+        'DecimalField': 'decimal',
         'DurationField': 'int64',
         'FileField': 'string',
         'FilePathField': 'string',
